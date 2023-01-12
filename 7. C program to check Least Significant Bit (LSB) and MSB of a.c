@@ -1,0 +1,14 @@
+
+number using bitwise operator.
+#include<stdio.h>
+Int main ()
+{
+int num,lsb,msb;
+printf("Enter a number: ");
+scanf("%d", &num);
+lsb = num & 1;
+msb = num >> 31;
+printf("Least Significant Bit: %d\n", lsb);
+printf("Most Significant Bit: %d\n", msb);
+return 0;
+}
